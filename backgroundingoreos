@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Background and Center Text</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        .background-2 {
+            width: 300px; 
+            height: 300px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, #d900ff, #2ec3e5); 
+            border: 2px solid #000; 
+        }
+
+        
+        #centered-text {
+            font-family: 'Roboto', sans-serif; 
+            font-size: 24px; 
+            color: #f6f8f9; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-2">
+        <p id="centered-text">OREO IS THE worst
+        </p>
+    </div>
+</body>
+</html>
